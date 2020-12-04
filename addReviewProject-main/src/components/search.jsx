@@ -66,7 +66,7 @@ class search extends Component {
                     onSubmit={this._handleFormSubmit}
                     validationSchema={Yup.object().shape({
                         year: Yup.number(),
-                        // luxuryLevel: Yup.number(),
+                        luxuryLevel: Yup.number(),
                         size: Yup.number(),
                         priceRange: Yup.number(),
                         type: Yup.number(),
